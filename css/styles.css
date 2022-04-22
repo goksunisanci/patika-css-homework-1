@@ -1,0 +1,229 @@
+body {
+    background-color: #EDEDED;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(48, 43, 54, 0.93);
+    margin: 0;
+    font-size: 18px;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    color: #EDEDED;
+    margin: 20px 20px;
+}
+
+.logo-container {
+    margin: 20px 20px;
+}
+
+.job {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 10px;
+    color: #b9b9b9;
+}
+
+.middle-container {
+    color: rgba(48, 43, 54, 0.93);
+    height: calc(100vh - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    width: 1000px;
+}
+.phone img, .mail img, .address img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 50px 20px 0;
+}
+.phone, .mail, .address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone div, .mail div, .address div {
+    justify-self: center;
+    width: 100%;
+}
+
+.teaching-certificates {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 32px;
+}
+
+.programming-certificates {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+.section {
+    display: inline-block;
+    margin: 16px;
+}
+
+.p-certificates {
+    display: flex;
+    justify-content: normal;
+}
+
+.t-certificates {
+    display: flex;
+    justify-content: normal;
+}
+
+.title {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    color: #d92c2c;
+}
+
+.main-content {
+    line-height: 40px;
+    text-align: center;
+}
+
+.skill {
+    width: 100px;
+    align-items: center;
+}
+
+.skill-img {
+    width: 50px;
+    height: 50px;
+}
+
+.hello {
+    font-size: 32px;
+}
+
+.main-content a {
+    color: rgb(63, 56, 157);
+}
+
+.main-content a:hover {
+    border-bottom: #fa5454 2px solid;
+    color: #fa5454;
+}
+
+.company {
+    font-style: italic;
+}
+
+.date {
+    padding-right: 50px;
+    float: left;
+}
+
+.me-photo {
+    border-radius: 20%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.arrow {
+    max-height: 18px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.top-container {
+    height: 40px;
+    background-color: rgba(96, 82, 105, 0.93);
+    padding: 10px 20px 10px;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.nav-bar-items {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.nav-bar-items > a {
+    color: #EDEDED;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.contact-img {
+    height: 36px;
+    margin: 0 5px;
+}
+
+
+.bottom-container {
+    background-color: rgba(96, 82, 105, 0.93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.nav-bar-items:hover:not(:active) > a {
+    border-bottom: #fa5454 2px solid;
+    color: #fa5454;
+    padding-bottom: 8px;
+}
+
+.nav-bar-items:active {
+    background-color: #EDEDED;
+}
+
+.nav-bar-items:active > a {
+    color: rgba(96, 82, 105, 0.93);
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    margin-top: 13px;
+    position: absolute;
+    min-width: 220px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(96, 82, 105, 0.93);;
+    color: #EDEDED;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #EDEDED;
+    color: rgba(96, 82, 105, 0.93);;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
